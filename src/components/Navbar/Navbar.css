@@ -1,0 +1,10 @@
+/*
+*   https://fonts.google.com/specimen/Libre+Barcode+39+Text?preview.text=CHEAP%20BUY&preview.text_type=custom&category=Display
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+
+.brand-logo-text {
+    font-family: 'Libre Barcode 39 Text', sans-serif;
+    font-size: 2.5rem;
+}
