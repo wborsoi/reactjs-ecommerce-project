@@ -1,7 +1,7 @@
-import StoreItem from "../../pages/Store/StoreItem";
+import StoreItem from "./StoreItem";
 
-export default function ItemListContainer({ products }) {
-    return(
+export default function StoreItemList({ products } ) {
+    return (
         <div className="d-flex ">
             {products?.map((product) => <StoreItem key={product.id} product={product} />)}
         </div>

@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "category": "Almacen",
+        "subcategory": "Aceites y Vinagres",
+        "name": "Aceite de girasol Lira 1.5 l.",
+        "brand": "Libra",
+        "price": 750,
+        "photoURL": "https://carrefourar.vtexassets.com/arquivos/ids/155433-1200-auto?v=637457062458370000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 2,
+        "category": "Almacen",
+        "subcategory": "Aceites y Vinagres",
+        "name": "Aceite de girasol Cocinero 1.5 l.",
+        "brand": "Cocinero",
+        "price": 837,
+        "photoURL": "https://carrefourar.vtexassets.com/arquivos/ids/155432-1200-auto?v=637457062452100000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id": 3,
+        "category": "Almacen",
+        "subcategory": "Aceites y Vinagres",
+        "name": "Vinagre de alcohol Casalta 1 l.",
+        "brand": "Casalta",
+        "price": 131,
+        "photoURL": "https://carrefourar.vtexassets.com/arquivos/ids/182659-1200-auto?v=637468589529100000&width=1200&height=auto&aspect=true"
+    }
+]
