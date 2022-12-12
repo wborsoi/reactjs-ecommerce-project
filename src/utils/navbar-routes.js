@@ -11,7 +11,7 @@ export const ROUTES = [
     },
     {
         id: "ALMACEN",
-        path: "/almacen",
+        path: "almacen",
         name: "Almacen",
         itemList: [
             {
@@ -63,7 +63,7 @@ export const ROUTES = [
     },
     {
         id: "BEBIDAS",
-        path: "/bebidas",
+        path: "bebidas",
         name: "Bebidas",
         itemList: [
             {
@@ -83,7 +83,7 @@ export const ROUTES = [
             },
             {
                 id: "BEB-4",
-                path: "/bebidas/bebidas-isotonicas",
+                path: "bebidas/bebidas-isotonicas",
                 name: "Bebidas isotónicas"
             },
             {
