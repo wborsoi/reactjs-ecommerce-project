@@ -1,0 +1,10 @@
+.store-item-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.store-item-container {
+    display: flex;
+    margin: 10px;
+}

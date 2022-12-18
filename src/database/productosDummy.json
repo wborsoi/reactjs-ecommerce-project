@@ -1,0 +1,1730 @@
+[
+    {
+        "id": "633585",
+        "name": "Puré de papas instantáneo Carrefour 100 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 129,
+        "category": "/Almacén/Caldos, sopas y puré/Purés instantáneos/",
+        "unit": "($1.290,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/180322/7791720016152_01.jpg?v=1757387831"
+    },
+    {
+        "id": "575040",
+        "name": "Sal fina Carrefour bolsa 500 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 85,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Sal/",
+        "unit": "($170,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/181550/7798159716455_01.jpg?v=1757387622"
+    },
+    {
+        "id": "680337",
+        "name": "Arroz largo fino selecto Molinos Ala 1 kg.",
+        "brand": {
+            "brandId": 2001494,
+            "brandName": "Molinos Ala"
+        },
+        "price": 174,
+        "category": "/Almacén/Arroz y legumbres/Arroz/",
+        "unit": "($174,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/206123/7791120099847_01.jpg?v=1757386514"
+    },
+    {
+        "id": "569343",
+        "name": "Arroz parboil Gallo Oro caja 1 kg.",
+        "brand": {
+            "brandId": 2000894,
+            "brandName": "Gallo"
+        },
+        "price": 290,
+        "category": "/Almacén/Arroz y legumbres/Arroz/",
+        "unit": "($290,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/170978/7790070411716_01.jpg?v=1757387386"
+    },
+    {
+        "id": "122141",
+        "name": "Lomitos de atún Carrefour en aceite 170 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 269,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de pescado/",
+        "unit": "($1.582,35 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/188365/7798033333891_01.jpg?v=1757386877"
+    },
+    {
+        "id": "571164",
+        "name": "Fideos tallarines Lucchetti 500 g.",
+        "brand": {
+            "brandId": 2001338,
+            "brandName": "Lucchetti"
+        },
+        "price": 170,
+        "category": "/Almacén/Pastas secas/Fideos largos/",
+        "unit": "($340,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/178921/7790070318299_01.jpg?v=1757387691"
+    },
+    {
+        "id": "678530",
+        "name": "Vinagre de alcohol Silva línea gourmet 960 cc.",
+        "brand": {
+            "brandId": 2002059,
+            "brandName": "Silva"
+        },
+        "price": 90.7,
+        "category": "/Almacén/Aceites y vinagres/Vinagres, acetos y limón/",
+        "unit": "($94,48 x 1 L.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/201569/7798142741235_02.jpg?v=1757385858"
+    },
+    {
+        "id": "663713",
+        "name": "Aceite de girasol Lira 1.5 l.",
+        "brand": {
+            "brandId": 2001303,
+            "brandName": "Lira"
+        },
+        "price": 750,
+        "category": "/Almacén/Aceites y vinagres/Aceites comunes/",
+        "unit": "($500,00 x 1 L.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/155433/7790070231420_02.jpg?v=1757387754"
+    },
+    {
+        "id": "568960",
+        "name": "Fideos mostacholes rayados Matarazzo 500 g.",
+        "brand": {
+            "brandId": 2001414,
+            "brandName": "Matarazzo"
+        },
+        "price": 182,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($364,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/175369/7790070318596_01.jpg?v=1757387161"
+    },
+    {
+        "id": "282537",
+        "name": "Harina de trigo Cañuelas 000 x 1 kg.",
+        "brand": {
+            "brandId": 2000330,
+            "brandName": "Cañuelas"
+        },
+        "price": 124,
+        "category": "/Almacén/Harinas/Harinas comunes y leudantes/",
+        "unit": "($124,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/237819/7792180001528_02.jpg?v=1757385959"
+    },
+    {
+        "id": "667763",
+        "name": "Aceite de girasol Cocinero 1.5 l.",
+        "brand": {
+            "brandId": 2000478,
+            "brandName": "Cocinero"
+        },
+        "price": 837,
+        "category": "/Almacén/Aceites y vinagres/Aceites comunes/",
+        "unit": "($558,00 x 1 L.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/155432/7790070231659_02.jpg?v=1757387801"
+    },
+    {
+        "id": "571167",
+        "name": "Fideos mostacholes Lucchetti 500 g.",
+        "brand": {
+            "brandId": 2001338,
+            "brandName": "Lucchetti"
+        },
+        "price": 172.5,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($345,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/175364/7790070318336_01.jpg?v=1757386425"
+    },
+    {
+        "id": "620633",
+        "name": "Fideos tirabuzones Lucchetti 3 vegetales 500 g.",
+        "brand": {
+            "brandId": 2001338,
+            "brandName": "Lucchetti"
+        },
+        "price": 209,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($418,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/175382/7790070321244_01.jpg?v=1757386425"
+    },
+    {
+        "id": "441323",
+        "name": "Aceite de oliva Carrefour virgen 500 cc.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 702,
+        "category": "/Almacén/Aceites y vinagres/Aceites de oliva/",
+        "unit": "($1.404,00 x 1 L.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/167071/7798141710119_01.jpg?v=1757387056"
+    },
+    {
+        "id": "164803",
+        "name": "Aceitunas verdes Nucete descarozadas 150 g.",
+        "brand": {
+            "brandId": 2001615,
+            "brandName": "Nucete"
+        },
+        "price": 178,
+        "category": "/Almacén/Enlatados y Conservas/Aceitunas y encurtidos/",
+        "unit": "($1.186,67 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/256464/7792070001102_01.jpg?v=1757386449"
+    },
+    {
+        "id": "590818",
+        "name": "Duraznos amarillos en mitades Carrefour 820 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 442,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de frutas/",
+        "unit": "($539,02 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/188714/7798159719722_01.jpg?v=1757387800"
+    },
+    {
+        "id": "661392",
+        "name": "Fideos tirabuzón Molto 500 g.",
+        "brand": {
+            "brandId": 2001496,
+            "brandName": "Molto"
+        },
+        "price": 171,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($342,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/175279/7798138552364_02.jpg?v=1757387181"
+    },
+    {
+        "id": "390080",
+        "name": "Palitos salados Carrefour 120 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 119,
+        "category": "/Almacén/Snacks/Nachos, maní y palitos/",
+        "unit": "($991,67 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/178537/7798108344289_01.jpg?v=1757386956"
+    },
+    {
+        "id": "390077",
+        "name": "Papas fritas Carrefour corte tradicional 270 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 363,
+        "category": "/Almacén/Snacks/Papas fritas y snacks de maíz/",
+        "unit": "($1.344,44 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/194076/7798108348874_01_nuevopack.jpg?v=1757386659"
+    },
+    {
+        "id": "263810",
+        "name": "Mayonesa Natura 237 g.",
+        "brand": {
+            "brandId": 2001545,
+            "brandName": "Natura"
+        },
+        "price": 147,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Salsas y aderezos/",
+        "unit": "($588,00 x 1 L.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/234475/7791866001203_02.jpg?v=1757384692"
+    },
+    {
+        "id": "545131",
+        "name": "Harina Pureza especial para pizzas 1 kg.",
+        "brand": {
+            "brandId": 2001846,
+            "brandName": "Pureza"
+        },
+        "price": 217.79,
+        "category": "/Almacén/Harinas/Otras harinas/",
+        "unit": "($217,79 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/196960/7792180004567_11.jpg?v=1757387048"
+    },
+    {
+        "id": "695916",
+        "name": "Arvejas secas remojadas Inalpa lata 300 g.",
+        "brand": {
+            "brandId": 2001077,
+            "brandName": "Inalpa"
+        },
+        "price": 71.7,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de legumbres y vegetales/",
+        "unit": "($239,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/241886/7792350067019_02.jpg?v=1757386945"
+    },
+    {
+        "id": "16987",
+        "name": "Tomate perita la campagnola 400 g.",
+        "brand": {
+            "brandId": 2000212,
+            "brandName": "BC"
+        },
+        "price": 101,
+        "category": "/Almacén/Enlatados y Conservas/Conservas y salsas de tomate/",
+        "unit": "($252,50 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/193448/7793360000089_01.jpg?v=1757382871"
+    },
+    {
+        "id": "548315",
+        "name": "Ketchup Natura 250 cc.",
+        "brand": {
+            "brandId": 2001545,
+            "brandName": "Natura"
+        },
+        "price": 159,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Salsas y aderezos/",
+        "unit": "($636,00 x 1 L.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/234477/7791866000381_02.jpg?v=1757385957"
+    },
+    {
+        "id": "661398",
+        "name": "Fideos spaguetti Molto 500 g.",
+        "brand": {
+            "brandId": 2001496,
+            "brandName": "Molto"
+        },
+        "price": 167,
+        "category": "/Almacén/Pastas secas/Fideos largos/",
+        "unit": "($334,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/178838/7798138552340_02.jpg?v=1757387268"
+    },
+    {
+        "id": "699030",
+        "name": "Aceite de girasol Carrefour alto omega pet 900 cc.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 457,
+        "category": "/Almacén/Aceites y vinagres/Aceites comunes/",
+        "unit": "($507,78 x 1 L.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/246133/7791720025291_02.jpg?v=1757386945"
+    },
+    {
+        "id": "667765",
+        "name": "Aceite de girasol Cocinero 900 g.",
+        "brand": {
+            "brandId": 2000478,
+            "brandName": "Cocinero"
+        },
+        "price": 536,
+        "category": "/Almacén/Aceites y vinagres/Aceites comunes/",
+        "unit": "($595,56 x 1 L.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/155429/7790070231666_02.jpg?v=1757384000"
+    },
+    {
+        "id": "674022",
+        "name": "Tomate perita pelado Alco 400 g.",
+        "brand": {
+            "brandId": 2000078,
+            "brandName": "Alco"
+        },
+        "price": 118,
+        "category": "/Almacén/Enlatados y Conservas/Conservas y salsas de tomate/",
+        "unit": "($295,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/196254/7798132920763_02.jpg?v=1757386635"
+    },
+    {
+        "id": "402721",
+        "name": "Orégano 50 g.",
+        "brand": {
+            "brandId": 2000001,
+            "brandName": "Genérico"
+        },
+        "price": 119,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Hierbas secas y especias/",
+        "unit": "($2.380,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/176515/2920725200005_02.jpg?v=1757383357"
+    },
+    {
+        "id": "551502",
+        "name": "Fideos cintas caseritos Don Vicente 500 g.",
+        "brand": {
+            "brandId": 2000660,
+            "brandName": "Don Vicente"
+        },
+        "price": 305,
+        "category": "/Almacén/Pastas secas/Fideos largos/",
+        "unit": "($610,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/178734/7790070318138_02.jpg?v=1757381014"
+    },
+    {
+        "id": "402730",
+        "name": "Provenzal 50 g.",
+        "brand": {
+            "brandId": 2000001,
+            "brandName": "Genérico"
+        },
+        "price": 150,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Hierbas secas y especias/",
+        "unit": "($3.000,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/201784/2920726100007_02.jpg?v=1757383071"
+    },
+    {
+        "id": "695287",
+        "name": "Arvejas secas remojadas Vigente tetra 340 g.",
+        "brand": {
+            "brandId": 2002371,
+            "brandName": "Vigente"
+        },
+        "price": 59.88,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de legumbres y vegetales/",
+        "unit": "($176,12 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/236911/7790123001376_02.jpg?v=1757386462"
+    },
+    {
+        "id": "8126",
+        "name": "Pate de foie Swift lata 90 g.",
+        "brand": {
+            "brandId": 2002181,
+            "brandName": "Swift"
+        },
+        "price": 121,
+        "category": "/Almacén/Enlatados y Conservas/Picadillos y paté/",
+        "unit": "($1.344,44 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/180254/7790360720382_02.jpg?v=1757385761"
+    },
+    {
+        "id": "568966",
+        "name": "Fideos coditos rayados Matarazzo 500 g.",
+        "brand": {
+            "brandId": 2001414,
+            "brandName": "Matarazzo"
+        },
+        "price": 189.29,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($378,58 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/175372/7790070318619_01.jpg?v=1757385805"
+    },
+    {
+        "id": "687516",
+        "name": "Caldo Maggi® sabor verduras 114 g.",
+        "brand": {
+            "brandId": 2001360,
+            "brandName": "Maggi"
+        },
+        "price": 180,
+        "category": "/Almacén/Caldos, sopas y puré/Caldos/",
+        "unit": "($1.578,95 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/247607/7891000345528_01.jpg?v=1757387632"
+    },
+    {
+        "id": "638363",
+        "name": "Harina de trigo Morixe 0000 1 kg.",
+        "brand": {
+            "brandId": 2001514,
+            "brandName": "Morixe"
+        },
+        "price": 171.44,
+        "category": "/Almacén/Harinas/Harinas comunes y leudantes/",
+        "unit": "($171,44 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/175951/7790199000020_02.jpg?v=1757384336"
+    },
+    {
+        "id": "317855",
+        "name": "Aceite de oliva Carrefour extra virgen 500 cc.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 914,
+        "category": "/Almacén/Aceites y vinagres/Aceites de oliva/",
+        "unit": "($1.828,00 x 1 L.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/167037/7798033338759_01.jpg?v=1757384558"
+    },
+    {
+        "id": "7987",
+        "name": "Sal fina Celusal paquete 500 g.",
+        "brand": {
+            "brandId": 2000411,
+            "brandName": "Celusal"
+        },
+        "price": 128,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Sal/",
+        "unit": "($256,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/196629/7790072001014.jpg?v=1757386518"
+    },
+    {
+        "id": "551617",
+        "name": "Fideos tirabuzones Matarazzo 3 vegetales 500 g.",
+        "brand": {
+            "brandId": 2001414,
+            "brandName": "Matarazzo"
+        },
+        "price": 253,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($506,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/175361/7790070318060_01.jpg?v=1757387160"
+    },
+    {
+        "id": "678497",
+        "name": "Harina de trigo 0000 ultrarefinada Pureza 1 kg.",
+        "brand": {
+            "brandId": 2001846,
+            "brandName": "Pureza"
+        },
+        "price": 185.09,
+        "category": "/Almacén/Harinas/Harinas comunes y leudantes/",
+        "unit": "($185,09 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/205215/7792180139313_02.jpg?v=1757387691"
+    },
+    {
+        "id": "645406",
+        "name": "Harina integral Pureza 1 kg.",
+        "brand": {
+            "brandId": 2001846,
+            "brandName": "Pureza"
+        },
+        "price": 204.08,
+        "category": "/Almacén/Harinas/Harinas comunes y leudantes/",
+        "unit": "($204,08 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/179111/7792180134516_02.jpg?v=1757387620"
+    },
+    {
+        "id": "556084",
+        "name": "Harina de trigo Blancaflor leudante 1 kg.",
+        "brand": {
+            "brandId": 2000257,
+            "brandName": "Blancaflor"
+        },
+        "price": 234,
+        "category": "/Almacén/Harinas/Harinas comunes y leudantes/",
+        "unit": "($234,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/207567/7790070507228_01.jpg?v=1757380590"
+    },
+    {
+        "id": "675047",
+        "name": "Fideos tirabuzones La Campagnola 500 g.",
+        "brand": {
+            "brandId": 2001205,
+            "brandName": "La Campagnola"
+        },
+        "price": 156,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($312,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/196732/7790580134723_02.jpg?v=1757387622"
+    },
+    {
+        "id": "571168",
+        "name": "Fideos coditos Lucchetti 500 g.",
+        "brand": {
+            "brandId": 2001338,
+            "brandName": "Lucchetti"
+        },
+        "price": 172.5,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($345,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/175366/7790070318343_01.jpg?v=1757384005"
+    },
+    {
+        "id": "680294",
+        "name": "Arroz parboil Dos Hermanos bolsa 1 kg.",
+        "brand": {
+            "brandId": 2000669,
+            "brandName": "Dos Hermanos"
+        },
+        "price": 204,
+        "category": "/Almacén/Arroz y legumbres/Arroz/",
+        "unit": "($204,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/202761/7790503199099_02.jpg?v=1757387653"
+    },
+    {
+        "id": "567617",
+        "name": "Aceite en aerosol Natura 120 cc.",
+        "brand": {
+            "brandId": 2001545,
+            "brandName": "Natura"
+        },
+        "price": 321,
+        "category": "/Almacén/Aceites y vinagres/Aceites en aerosol/",
+        "unit": "($2.675,00 x 1 L.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/167144/7790272000831_02.jpg?v=1757387895"
+    },
+    {
+        "id": "589443",
+        "name": "Gelatina en polvo Royal frutilla 40 g.",
+        "brand": {
+            "brandId": 2001942,
+            "brandName": "Royal"
+        },
+        "price": 86,
+        "category": "/Almacén/Repostería y postres/Gelatinas en polvo/",
+        "unit": "($215,00 x 100 G.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/175412/7622300865535_01.jpg?v=1757387240"
+    },
+    {
+        "id": "660623",
+        "name": "Tomate triturado Carrefour 970 cc.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 369,
+        "category": "/Almacén/Enlatados y Conservas/Conservas y salsas de tomate/",
+        "unit": "($380,41 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/188137/7791720023815_01.jpg?v=1757382791"
+    },
+    {
+        "id": "673423",
+        "name": "Gelatina frutilla light Exquisita 25 g.",
+        "brand": {
+            "brandId": 2000782,
+            "brandName": "Exquisita"
+        },
+        "price": 125,
+        "category": "/Almacén/Repostería y postres/Gelatinas en polvo/",
+        "unit": "($500,00 x 100 G.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/196603/7790070409966_02.jpg?v=1757384922"
+    },
+    {
+        "id": "78495",
+        "name": "Sal fina Celusal 500 g.",
+        "brand": {
+            "brandId": 2000411,
+            "brandName": "Celusal"
+        },
+        "price": 132,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Sal/",
+        "unit": "($264,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/196631/7790072002080_11.jpg?v=1757384733"
+    },
+    {
+        "id": "532096",
+        "name": "Premezcla para bizcochuelo Exquisita vainilla especial 540 g.",
+        "brand": {
+            "brandId": 2000782,
+            "brandName": "Exquisita"
+        },
+        "price": 379,
+        "category": "/Almacén/Repostería y postres/Premezclas de bizcochuelos/",
+        "unit": "($701,85 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/180136/7790070410139_01.jpg?v=1757386505"
+    },
+    {
+        "id": "670228",
+        "name": "Salsa lista pomarola Knorr 340 g",
+        "brand": {
+            "brandId": 2001177,
+            "brandName": "Knorr"
+        },
+        "price": 137,
+        "category": "/Almacén/Enlatados y Conservas/Conservas y salsas de tomate/",
+        "unit": "($402,94 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/225759/7794000003705_01.jpg?v=1757387479"
+    },
+    {
+        "id": "675058",
+        "name": "Fideos mostachol Arcor 500 g.",
+        "brand": {
+            "brandId": 2000128,
+            "brandName": "Arcor"
+        },
+        "price": 143,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($286,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/196741/7790580134839_02.jpg?v=1757370153"
+    },
+    {
+        "id": "390079",
+        "name": "Maní pelado frito Carrefour 120 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 144,
+        "category": "/Almacén/Snacks/Nachos, maní y palitos/",
+        "unit": "($1.200,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/178476/7798108348898_01.jpg?v=1757385982"
+    },
+    {
+        "id": "679231",
+        "name": "Mostaza Dánica doy pack 220 g.",
+        "brand": {
+            "brandId": 2000567,
+            "brandName": "Dánica"
+        },
+        "price": 114,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Salsas y aderezos/",
+        "unit": "($518,18 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/209617/7791620187280_02.jpg?v=1757387663"
+    },
+    {
+        "id": "660295",
+        "name": "Vinagre de alcohol Casalta 1 l.",
+        "brand": {
+            "brandId": 2000394,
+            "brandName": "Casalta"
+        },
+        "price": 131,
+        "category": "/Almacén/Aceites y vinagres/Vinagres, acetos y limón/",
+        "unit": "($131,00 x 1 L.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/182659/7790139003173_02.jpg?v=1757386975"
+    },
+    {
+        "id": "680293",
+        "name": "Arroz largo fino 00000 Dos Hermanos bolsa 1 kg.",
+        "brand": {
+            "brandId": 2000669,
+            "brandName": "Dos Hermanos"
+        },
+        "price": 168.5,
+        "category": "/Almacén/Arroz y legumbres/Arroz/",
+        "unit": "($168,50 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/202760/7790503199082_02.jpg?v=1757387771"
+    },
+    {
+        "id": "402725",
+        "name": "Pimentón 50 g.",
+        "brand": {
+            "brandId": 2000001,
+            "brandName": "Genérico"
+        },
+        "price": 150,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Hierbas secas y especias/",
+        "unit": "($3.000,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/176523/2920725600003_02.jpg?v=1757381887"
+    },
+    {
+        "id": "695099",
+        "name": "Caldo de gallina Knorr caja estuche x 6 uni",
+        "brand": {
+            "brandId": 2001177,
+            "brandName": "Knorr"
+        },
+        "price": 130.5,
+        "category": "/Almacén/Caldos, sopas y puré/Caldos/",
+        "unit": "($2.289,47 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/237838/7794000005631_02.jpg?v=1757379178"
+    },
+    {
+        "id": "113160",
+        "name": "Arroz Molinos Ala doble carolina bolsa 1 kg.",
+        "brand": {
+            "brandId": 2001494,
+            "brandName": "Molinos Ala"
+        },
+        "price": 326,
+        "category": "/Almacén/Arroz y legumbres/Arroz/",
+        "unit": "($326,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/206109/7791120021558_01.jpg?v=1757387599"
+    },
+    {
+        "id": "695919",
+        "name": "Lentejas secas remojadas Inalpa lata 300 g.",
+        "brand": {
+            "brandId": 2001077,
+            "brandName": "Inalpa"
+        },
+        "price": 98,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de legumbres y vegetales/",
+        "unit": "($326,67 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/241888/7792350067064_02.jpg?v=1757386729"
+    },
+    {
+        "id": "568964",
+        "name": "Fideos penne rigate Matarazzo 500 g.",
+        "brand": {
+            "brandId": 2001414,
+            "brandName": "Matarazzo"
+        },
+        "price": 204.5,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($409,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/175373/7790070318633_01.jpg?v=1757386421"
+    },
+    {
+        "id": "672173",
+        "name": "Avena Morixe instantánea 300 g.",
+        "brand": {
+            "brandId": 2001514,
+            "brandName": "Morixe"
+        },
+        "price": 172.74,
+        "category": "/Almacén/Harinas/Avena/",
+        "unit": "($575,80 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/171079/7790199603320_02.jpg?v=1757386121"
+    },
+    {
+        "id": "672442",
+        "name": "Aceitunas verdes Castell descarozadas doy pack 140 g.",
+        "brand": {
+            "brandId": 2000401,
+            "brandName": "Castell"
+        },
+        "price": 259,
+        "category": "/Almacén/Enlatados y Conservas/Aceitunas y encurtidos/",
+        "unit": "($1.850,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/193060/7791675908427_02.jpg?v=1757387897"
+    },
+    {
+        "id": "661403",
+        "name": "Fideos mostacholes rayado Molto 500 g.",
+        "brand": {
+            "brandId": 2001496,
+            "brandName": "Molto"
+        },
+        "price": 167,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($334,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/175270/7798138552326_02.jpg?v=1757385141"
+    },
+    {
+        "id": "695920",
+        "name": "Garbanzos Inalpa secos remojados lata 300 g.",
+        "brand": {
+            "brandId": 2001077,
+            "brandName": "Inalpa"
+        },
+        "price": 114,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de legumbres y vegetales/",
+        "unit": "($380,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/241889/7792350067071_02.jpg?v=1757382997"
+    },
+    {
+        "id": "8130",
+        "name": "Picadillo de carne Swift 90 g.",
+        "brand": {
+            "brandId": 2002181,
+            "brandName": "Swift"
+        },
+        "price": 121,
+        "category": "/Almacén/Enlatados y Conservas/Picadillos y paté/",
+        "unit": "($1.344,44 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/180253/7790360720115_02.jpg?v=1757385219"
+    },
+    {
+        "id": "696406",
+        "name": "Almidón de maíz Maizena bolsa 250 g.",
+        "brand": {
+            "brandId": 2001372,
+            "brandName": "Maizena"
+        },
+        "price": 208,
+        "category": "/Almacén/Harinas/Otras harinas/",
+        "unit": "($832,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/237836/7794000005372_02.jpg?v=1757382651"
+    },
+    {
+        "id": "679234",
+        "name": "Kétchup Dánica doy pack 220 g.",
+        "brand": {
+            "brandId": 2000567,
+            "brandName": "Dánica"
+        },
+        "price": 163,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Salsas y aderezos/",
+        "unit": "($740,91 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/209616/7791620187242_02.jpg?v=1757379578"
+    },
+    {
+        "id": "553579",
+        "name": "Papas fritas Carrefour corte americano 170 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 269,
+        "category": "/Almacén/Snacks/Papas fritas y snacks de maíz/",
+        "unit": "($1.582,35 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/194511/7798159714697_01.jpg?v=1757384571"
+    },
+    {
+        "id": "630676",
+        "name": "Mostaza Natura 250 g.",
+        "brand": {
+            "brandId": 2001545,
+            "brandName": "Natura"
+        },
+        "price": 140,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Salsas y aderezos/",
+        "unit": "($560,00 x 1 L.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/234470/7791866004211_02.jpg?v=1757383957"
+    },
+    {
+        "id": "390081",
+        "name": "Palitos de maíz Carrefour queso 150 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 186,
+        "category": "/Almacén/Snacks/Nachos, maní y palitos/",
+        "unit": "($1.240,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/178474/7798108348881_01.jpg?v=1757385844"
+    },
+    {
+        "id": "622544",
+        "name": "Arroz parboil Gallo Oro 1 kg.",
+        "brand": {
+            "brandId": 2000894,
+            "brandName": "Gallo"
+        },
+        "price": 270.31,
+        "category": "/Almacén/Arroz y legumbres/Arroz/",
+        "unit": "($270,31 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/171061/7790070416179_01.jpg?v=1757386542"
+    },
+    {
+        "id": "392580",
+        "name": "Aceite mezcla Cocinero 1.5 kg.",
+        "brand": {
+            "brandId": 2000478,
+            "brandName": "Cocinero"
+        },
+        "price": 313,
+        "category": "/Almacén/Aceites y vinagres/Aceites especiales/",
+        "unit": "($208,67 x 1 L.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/192374/7790070225023_02.jpg?v=1757383873"
+    },
+    {
+        "id": "680339",
+        "name": "Arroz parboil selecto Molinos Ala 1 kg.",
+        "brand": {
+            "brandId": 2001494,
+            "brandName": "Molinos Ala"
+        },
+        "price": 199.5,
+        "category": "/Almacén/Arroz y legumbres/Arroz/",
+        "unit": "($199,50 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/206124/7791120099854_01.jpg?v=1757387996"
+    },
+    {
+        "id": "682686",
+        "name": "Condimento sabor al horno Knorr tipo criollo 21 g.",
+        "brand": {
+            "brandId": 2001177,
+            "brandName": "Knorr"
+        },
+        "price": 160,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Saborizadores/",
+        "unit": "($761,90 x 100 G.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/248609/7794000004924_01.jpg?v=1757380459"
+    },
+    {
+        "id": "600447",
+        "name": "Tomate perita entero Vigente 400 g.",
+        "brand": {
+            "brandId": 2002371,
+            "brandName": "Vigente"
+        },
+        "price": 115.5,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de frutas/",
+        "unit": "($288,75 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/201365/7790123001154_02.jpg?v=1757344074"
+    },
+    {
+        "id": "675987",
+        "name": "Fideos spaghetti rina Matarazzo 500 g.",
+        "brand": {
+            "brandId": 2001414,
+            "brandName": "Matarazzo"
+        },
+        "price": 272,
+        "category": "/Almacén/Pastas secas/Fideos largos/",
+        "unit": "($544,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/207539/7790070321916_01.jpg?v=1757386358"
+    },
+    {
+        "id": "97241",
+        "name": "Atún La Campagnola al natural 300 g.",
+        "brand": {
+            "brandId": 2000212,
+            "brandName": "BC"
+        },
+        "price": 1005,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de pescado/",
+        "unit": "($3.350,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/188287/7793360005169_01.jpg?v=1757378602"
+    },
+    {
+        "id": "7758",
+        "name": "Harina de trigo 0000 Caserita 1 kg.",
+        "brand": {
+            "brandId": 2000399,
+            "brandName": "Caserita"
+        },
+        "price": 173.5,
+        "category": "/Almacén/Harinas/Harinas comunes y leudantes/",
+        "unit": "($173,50 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/228309/7792590000227_02.jpg?v=1757378573"
+    },
+    {
+        "id": "569349",
+        "name": "Arroz integral Gallo 1 kg.",
+        "brand": {
+            "brandId": 2000894,
+            "brandName": "Gallo"
+        },
+        "price": 242,
+        "category": "/Almacén/Arroz y legumbres/Arroz/",
+        "unit": "($242,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/171053/7790070411730_01.jpg?v=1757387897"
+    },
+    {
+        "id": "575397",
+        "name": "Fideos coditos Carrefour 500 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 129,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($258,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/175309/7798159717230_01.jpg?v=1757386250"
+    },
+    {
+        "id": "59461",
+        "name": "Fideos moños Matarazzo 500 g.",
+        "brand": {
+            "brandId": 2001414,
+            "brandName": "Matarazzo"
+        },
+        "price": 338,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($676,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/175392/7790230033031_01.jpg?v=1757380473"
+    },
+    {
+        "id": "262582",
+        "name": "Ajo en polvo La Parmesana 25 g.",
+        "brand": {
+            "brandId": 2001236,
+            "brandName": "La Parmesana"
+        },
+        "price": 74.3,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Hierbas secas y especias/",
+        "unit": "($297,20 x 100 G.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/176469/7796373002446_02.jpg?v=1757381887"
+    },
+    {
+        "id": "381694",
+        "name": "Palitos salados Krachitos 120 g.",
+        "brand": {
+            "brandId": 2001188,
+            "brandName": "Krachitos"
+        },
+        "price": 140.5,
+        "category": "/Almacén/Snacks/Nachos, maní y palitos/",
+        "unit": "($1.170,83 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/178525/7794520442121_02.jpg?v=1757386450"
+    },
+    {
+        "id": "633586",
+        "name": "Puré de papas instantáneo Carrefour 200 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 279,
+        "category": "/Almacén/Caldos, sopas y puré/Purés instantáneos/",
+        "unit": "($1.395,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/180294/7791720016169_01.jpg?v=1757379189"
+    },
+    {
+        "id": "437302",
+        "name": "Tomate perita Carrefour 400 g.",
+        "brand": {
+            "brandId": 2000001,
+            "brandName": "Genérico"
+        },
+        "price": 109,
+        "category": "/Almacén/Enlatados y Conservas/Conservas y salsas de tomate/",
+        "unit": "($272,50 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/188424/7798141714346_01.jpg?v=1757384573"
+    },
+    {
+        "id": "690052",
+        "name": "Bicarbonato de sodio Alicante bolsa 50 g.",
+        "brand": {
+            "brandId": 2000086,
+            "brandName": "Alicante"
+        },
+        "price": 83,
+        "category": "/Almacén/Repostería y postres/Complementos/",
+        "unit": "($166,00 x 100 G.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/229176/7790150430392_01.jpg?v=1757381254"
+    },
+    {
+        "id": "600443",
+        "name": "Flan en polvo Royal vainilla 60 g.",
+        "brand": {
+            "brandId": 2001942,
+            "brandName": "Royal"
+        },
+        "price": 57,
+        "category": "/Almacén/Repostería y postres/Postres y flanes en polvo/",
+        "unit": "($950,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/180433/7622300871550_01.jpg?v=1757384156"
+    },
+    {
+        "id": "709753",
+        "name": "Mostaza Savora original doy pack 250 g.",
+        "brand": {
+            "brandId": 2002003,
+            "brandName": "Savora"
+        },
+        "price": 195.17,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Salsas y aderezos/",
+        "unit": "($780,68 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/266149/7794000006478_E01.jpg?v=1757387895"
+    },
+    {
+        "id": "680679",
+        "name": "Fideos spaghetti espinaca rina Matarazzo 500 g.",
+        "brand": {
+            "brandId": 2001414,
+            "brandName": "Matarazzo"
+        },
+        "price": 269.5,
+        "category": "/Almacén/Pastas secas/Fideos largos/",
+        "unit": "($518,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/207541/7790070322067_01.jpg?v=1757381419"
+    },
+    {
+        "id": "623147",
+        "name": "Garbanzos secos remojados Carrefour 340 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 89,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de legumbres y vegetales/",
+        "unit": "($261,76 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/188134/7791720003985_01.jpg?v=1757386272"
+    },
+    {
+        "id": "697386",
+        "name": "Caldo Maggi® sabor verdura menos sodio 114 g.",
+        "brand": {
+            "brandId": 2001360,
+            "brandName": "Maggi"
+        },
+        "price": 160,
+        "category": "/Almacén/Caldos, sopas y puré/Caldos/",
+        "unit": "($1.403,51 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/247665/7891000345566_01.jpg?v=1757382169"
+    },
+    {
+        "id": "614322",
+        "name": "Fideos spaghetti Matarazzo integral 500 g.",
+        "brand": {
+            "brandId": 2001414,
+            "brandName": "Matarazzo"
+        },
+        "price": 253,
+        "category": "/Almacén/Pastas secas/Fideos largos/",
+        "unit": "($506,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/178930/7790070320858_01.jpg?v=1757378711"
+    },
+    {
+        "id": "673424",
+        "name": "Gelatina cereza light Exquisita 25 g.",
+        "brand": {
+            "brandId": 2000782,
+            "brandName": "Exquisita"
+        },
+        "price": 125,
+        "category": "/Almacén/Repostería y postres/Gelatinas en polvo/",
+        "unit": "($500,00 x 100 G.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/234454/7790070409980_02.jpg?v=1757387820"
+    },
+    {
+        "id": "675985",
+        "name": "Fideos rigatti rina Matarazzo 500 g.",
+        "brand": {
+            "brandId": 2001414,
+            "brandName": "Matarazzo"
+        },
+        "price": 268.5,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($537,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/207537/7790070321893_01.jpg?v=1757369055"
+    },
+    {
+        "id": "614320",
+        "name": "Fideos tirabuzones Matarazzo integral 500 g.",
+        "brand": {
+            "brandId": 2001414,
+            "brandName": "Matarazzo"
+        },
+        "price": 253,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($506,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/175377/7790070320841_01.jpg?v=1757382647"
+    },
+    {
+        "id": "703576",
+        "name": "Harina 000 Catriel 1 kg.",
+        "brand": {
+            "brandId": 2003234,
+            "brandName": "Catriel"
+        },
+        "price": 121,
+        "category": "/Almacén/Harinas/Harinas comunes y leudantes/",
+        "unit": "($121,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/251614/7799037060103_02.jpg?v=1757383076"
+    },
+    {
+        "id": "584376",
+        "name": "Fideos monos Lucchetti bolsa 500 g.",
+        "brand": {
+            "brandId": 2001338,
+            "brandName": "Lucchetti"
+        },
+        "price": 273,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($546,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/214291/7790070318350_01.jpg?v=1757385155"
+    },
+    {
+        "id": "672795",
+        "name": "Maní pelado salado Croppers bolsa 340 g.",
+        "brand": {
+            "brandId": 2000540,
+            "brandName": "Croppers"
+        },
+        "price": 352,
+        "category": "/Almacén/Snacks/Nachos, maní y palitos/",
+        "unit": "($1.035,29 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/178433/7790524323886_02.jpg?v=1757379555"
+    },
+    {
+        "id": "568945",
+        "name": "Duraznos Carrefour cubeteados 820 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 442,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de frutas/",
+        "unit": "($539,02 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/188713/7798159716677_01.jpg?v=1757381802"
+    },
+    {
+        "id": "684243",
+        "name": "Flan vainilla Exquisita sobre 40 g.",
+        "brand": {
+            "brandId": 2000782,
+            "brandName": "Exquisita"
+        },
+        "price": 83.3,
+        "category": "/Almacén/Repostería y postres/Postres y flanes en polvo/",
+        "unit": "($208,25 x 100 G.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/208448/7790070413116_02.jpg?v=1757387172"
+    },
+    {
+        "id": "551568",
+        "name": "Fideos fettuccini Don Vicente 500 g.",
+        "brand": {
+            "brandId": 2000660,
+            "brandName": "Don Vicente"
+        },
+        "price": 338,
+        "category": "/Almacén/Pastas secas/Fideos largos/",
+        "unit": "($676,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/178732/7790070318121_01.jpg?v=1757387620"
+    },
+    {
+        "id": "658276",
+        "name": "Risotto Gallo 4 quesos 240 g.",
+        "brand": {
+            "brandId": 2000894,
+            "brandName": "Gallo"
+        },
+        "price": 432,
+        "category": "/Almacén/Arroz y legumbres/Arroz/",
+        "unit": "($1.800,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/192386/7790070414670_01.jpg?v=1757348588"
+    },
+    {
+        "id": "549673",
+        "name": "Premezcla para brownies Exquisita 425 g.",
+        "brand": {
+            "brandId": 2000782,
+            "brandName": "Exquisita"
+        },
+        "price": 453,
+        "category": "/Almacén/Repostería y postres/Premezclas de bizcochuelos/",
+        "unit": "($1.065,88 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/180141/7790070410627_01.jpg?v=1757388001"
+    },
+    {
+        "id": "278050",
+        "name": "Polenta instantánea Carrefour 500 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 77,
+        "category": "/Almacén/Harinas/Polentas/",
+        "unit": "($154,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/194174/7798033339572_01.jpg?v=1757374930"
+    },
+    {
+        "id": "660192",
+        "name": "Arroz listo Gallo vegetales 240 g.",
+        "brand": {
+            "brandId": 2000894,
+            "brandName": "Gallo"
+        },
+        "price": 291,
+        "category": "/Almacén/Arroz y legumbres/Arroz/",
+        "unit": "($1.212,50 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/207555/7790070413758_01.jpg?v=1757382567"
+    },
+    {
+        "id": "694579",
+        "name": "Fideos codito Favorita hierro 500 g.",
+        "brand": {
+            "brandId": 2000807,
+            "brandName": "Favorita"
+        },
+        "price": 99.53,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($199,06 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/235829/7790070342058_02.jpg?v=1757380656"
+    },
+    {
+        "id": "679316",
+        "name": "Puré de tomate Molto tetra 520 g.",
+        "brand": {
+            "brandId": 2001496,
+            "brandName": "Molto"
+        },
+        "price": 142,
+        "category": "/Almacén/Enlatados y Conservas/Conservas y salsas de tomate/",
+        "unit": "($273,08 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/201555/7798138554603_02.jpg?v=1757384938"
+    },
+    {
+        "id": "643930",
+        "name": "Salsa barbacoa La Campagnola 250 g.",
+        "brand": {
+            "brandId": 2000212,
+            "brandName": "BC"
+        },
+        "price": 188,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Salsas y aderezos/",
+        "unit": "($752,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/182197/7793360123474_01.jpg?v=1757387968"
+    },
+    {
+        "id": "702053",
+        "name": "Arvejas secas remojadas La Campagnola 300 g.",
+        "brand": {
+            "brandId": 2001205,
+            "brandName": "La Campagnola"
+        },
+        "price": 169,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de legumbres y vegetales/",
+        "unit": "($563,33 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/250243/7793360132384_02.jpg?v=1757387479"
+    },
+    {
+        "id": "633657",
+        "name": "Fideos spaghetti Matarazzo 500 g. sin TACC",
+        "brand": {
+            "brandId": 2001414,
+            "brandName": "Matarazzo"
+        },
+        "price": 339,
+        "category": "/Almacén/Pastas secas/Fideos largos/",
+        "unit": "($678,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/178932/7790070321800_01.jpg?v=1757380887"
+    },
+    {
+        "id": "631511",
+        "name": "Mayonesa Heinz con jugo de limón 350 g.",
+        "brand": {
+            "brandId": 2001012,
+            "brandName": "Heinz"
+        },
+        "price": 325,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Salsas y aderezos/",
+        "unit": "($928,57 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/181949/7798146138178_01.jpg?v=1757382589"
+    },
+    {
+        "id": "551619",
+        "name": "Fideos mostacholes Matarazzo 3 vegetales 500 g.",
+        "brand": {
+            "brandId": 2001414,
+            "brandName": "Matarazzo"
+        },
+        "price": 253,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($506,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/175363/7790070318077_01.jpg?v=1757385574"
+    },
+    {
+        "id": "690049",
+        "name": "Esencia de vainilla Alicante pet 100 cc.",
+        "brand": {
+            "brandId": 2000086,
+            "brandName": "Alicante"
+        },
+        "price": 180.32,
+        "category": "/Almacén/Repostería y postres/Complementos/",
+        "unit": "($1.803,20 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/229183/7790150610305_01.jpg?v=1757383709"
+    },
+    {
+        "id": "402704",
+        "name": "Ají molido x 50 g.",
+        "brand": {
+            "brandId": 2000001,
+            "brandName": "Genérico"
+        },
+        "price": 94.9,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Hierbas secas y especias/",
+        "unit": "($1.898,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/176503/2920723600005_02.jpg?v=1757381887"
+    },
+    {
+        "id": "675050",
+        "name": "Fideos penne rigate La Campagnola 500 g.",
+        "brand": {
+            "brandId": 2001205,
+            "brandName": "La Campagnola"
+        },
+        "price": 171,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($342,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/196735/7790580134754_02.jpg?v=1757387969"
+    },
+    {
+        "id": "638447",
+        "name": "Mayonesa Cada Día light 500 g.",
+        "brand": {
+            "brandId": 2000342,
+            "brandName": "Cada Día"
+        },
+        "price": 138,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Salsas y aderezos/",
+        "unit": "($276,00 x 1 L.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/181685/7791866000596_02.jpg?v=1757378113"
+    },
+    {
+        "id": "418314",
+        "name": "Choclo en grano dulce Carrefour 340 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 279,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de legumbres y vegetales/",
+        "unit": "($820,59 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/188598/3560070000449_01.jpg?v=1757387056"
+    },
+    {
+        "id": "684560",
+        "name": "Salsa pizza Arcor doy pack 340 g.",
+        "brand": {
+            "brandId": 2000128,
+            "brandName": "Arcor"
+        },
+        "price": 151,
+        "category": "/Almacén/Enlatados y Conservas/Conservas y salsas de tomate/",
+        "unit": "($444,12 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/218125/7790580133153_02.jpg?v=1757384482"
+    },
+    {
+        "id": "569346",
+        "name": "Arroz doble carolina Gallo 1 kg.",
+        "brand": {
+            "brandId": 2000894,
+            "brandName": "Gallo"
+        },
+        "price": 410,
+        "category": "/Almacén/Arroz y legumbres/Arroz/",
+        "unit": "($410,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/170981/7790070411723_02.jpg?v=1757376633"
+    },
+    {
+        "id": "695098",
+        "name": "Caldo Knorr en cubos de verduras x 6 uni",
+        "brand": {
+            "brandId": 2001177,
+            "brandName": "Knorr"
+        },
+        "price": 130.5,
+        "category": "/Almacén/Caldos, sopas y puré/Caldos/",
+        "unit": "($2.289,47 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/248902/7794000005624_01.jpg?v=1757388001"
+    },
+    {
+        "id": "699549",
+        "name": "Atún en aceite La campagnola lomitos 170 g.",
+        "brand": {
+            "brandId": 2001205,
+            "brandName": "La Campagnola"
+        },
+        "price": 625,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de pescado/",
+        "unit": "($3.676,47 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/245934/7790580131357_02.jpg?v=1757383403"
+    },
+    {
+        "id": "699550",
+        "name": "Atún al natural La Campagnola lomitos 170 g.",
+        "brand": {
+            "brandId": 2001205,
+            "brandName": "La Campagnola"
+        },
+        "price": 625,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de pescado/",
+        "unit": "($3.676,47 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/245935/7790580131364_02.jpg?v=1757387489"
+    },
+    {
+        "id": "671366",
+        "name": "Harina de trigo integral Morixe 1 kg.",
+        "brand": {
+            "brandId": 2001514,
+            "brandName": "Morixe"
+        },
+        "price": 171.6,
+        "category": "/Almacén/Harinas/Harinas comunes y leudantes/",
+        "unit": "($171,60 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/175957/7790199603856_02.jpg?v=1757381398"
+    },
+    {
+        "id": "682683",
+        "name": "Condimento sabor al Horno Knorr romero y tomillo sobre 21 g",
+        "brand": {
+            "brandId": 2001177,
+            "brandName": "Knorr"
+        },
+        "price": 162,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Saborizadores/",
+        "unit": "($771,43 x 100 G.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/225320/7794000004894_01.jpg?v=1757374367"
+    },
+    {
+        "id": "402703",
+        "name": "Adobo para pizza 50 g.",
+        "brand": {
+            "brandId": 2000001,
+            "brandName": "Genérico"
+        },
+        "price": 137,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Hierbas secas y especias/",
+        "unit": "($2.740,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/176500/2920723500008_02_1.jpg?v=1757383350"
+    },
+    {
+        "id": "507127",
+        "name": "Galletitas crackers Kesitas 125 g.",
+        "brand": {
+            "brandId": 2001157,
+            "brandName": "Kesitas"
+        },
+        "price": 243,
+        "category": "/Almacén/Snacks/Otros snacks salados/",
+        "unit": "($1.944,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/179255/7790040173200_01.jpg?v=1757386347"
+    },
+    {
+        "id": "697549",
+        "name": "Salsa de tomate Knorr deshidratado 60 g.",
+        "brand": {
+            "brandId": 2001177,
+            "brandName": "Knorr"
+        },
+        "price": 190,
+        "category": "/Almacén/Enlatados y Conservas/Conservas y salsas de tomate/",
+        "unit": "($3.166,67 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/241914/7794000004429_02.jpg?v=1757382998"
+    },
+    {
+        "id": "679233",
+        "name": "Salsa golf Dánica doy pack 220 g.",
+        "brand": {
+            "brandId": 2000567,
+            "brandName": "Dánica"
+        },
+        "price": 156,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Salsas y aderezos/",
+        "unit": "($709,09 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/209618/7791620187327_02.jpg?v=1757379684"
+    },
+    {
+        "id": "390078",
+        "name": "Papas fritas Carrefour corte tradicional 170 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 286,
+        "category": "/Almacén/Snacks/Papas fritas y snacks de maíz/",
+        "unit": "($1.682,35 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/194074/7798108348867_01.jpg?v=1757384569"
+    },
+    {
+        "id": "673425",
+        "name": "Gelatina durazno light Exquisita 25 g.",
+        "brand": {
+            "brandId": 2000782,
+            "brandName": "Exquisita"
+        },
+        "price": 130,
+        "category": "/Almacén/Repostería y postres/Gelatinas en polvo/",
+        "unit": "($520,00 x 100 G.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/201358/7790070410009_01.jpg?v=1757381157"
+    },
+    {
+        "id": "692779",
+        "name": "Pimentón dulce Alicante sobre 50 g.",
+        "brand": {
+            "brandId": 2000086,
+            "brandName": "Alicante"
+        },
+        "price": 192,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Hierbas secas y especias/",
+        "unit": "($384,00 x 100 G.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/232738/7790150565735_01.jpg?v=1757385643"
+    },
+    {
+        "id": "599953",
+        "name": "Aceite de soja Sojola 900 cc.",
+        "brand": {
+            "brandId": 2002100,
+            "brandName": "Sojola"
+        },
+        "price": 185.8,
+        "category": "/Almacén/Aceites y vinagres/Aceites comunes/",
+        "unit": "($206,44 x 1 L.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/201374/7790272005553_02.jpg?v=1757384974"
+    },
+    {
+        "id": "493398",
+        "name": "Jurel al natural Carrefour 425 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 365,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de pescado/",
+        "unit": "($858,82 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/188710/7798152221864_01.jpg?v=1757387261"
+    },
+    {
+        "id": "675986",
+        "name": "Fideos fusilli rina Matarazzo 500 g.",
+        "brand": {
+            "brandId": 2001414,
+            "brandName": "Matarazzo"
+        },
+        "price": 272.5,
+        "category": "/Almacén/Pastas secas/Fideos guiseros y para sopas/",
+        "unit": "($545,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/207538/7790070321909_01.jpg?v=1757359436"
+    },
+    {
+        "id": "547912",
+        "name": "Arroz largo fino 00000 Lucchetti bolsa 1 kg.",
+        "brand": {
+            "brandId": 2001338,
+            "brandName": "Lucchetti"
+        },
+        "price": 171,
+        "category": "/Almacén/Arroz y legumbres/Arroz/",
+        "unit": "($171,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/242954/7790070410603_02.jpg?v=1757387968"
+    },
+    {
+        "id": "685103",
+        "name": "Orégano Alicante sobre 50 g.",
+        "brand": {
+            "brandId": 2000086,
+            "brandName": "Alicante"
+        },
+        "price": 290,
+        "category": "/Almacén/Sal, aderezos y saborizadores/Hierbas secas y especias/",
+        "unit": "($580,00 x 100 G.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/210936/7790150540336_01.jpg?v=1757388000"
+    },
+    {
+        "id": "675061",
+        "name": "Fideos cabello de ángel Arcor 500 g.",
+        "brand": {
+            "brandId": 2000128,
+            "brandName": "Arcor"
+        },
+        "price": 143,
+        "category": "/Almacén/Pastas secas/Fideos largos/",
+        "unit": "($286,00 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/196744/7790580134860_02.jpg?v=1757376830"
+    },
+    {
+        "id": "642105",
+        "name": "Papas fritas Carrefour clásicas 140 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 335,
+        "category": "/Almacén/Snacks/Papas fritas y snacks de maíz/",
+        "unit": "($2.392,86 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/193117/7791720018392_01_nuevopack.jpg?v=1757389044"
+    },
+    {
+        "id": "645236",
+        "name": "Maní pelado y salado 500 g.",
+        "brand": {
+            "brandId": 2000001,
+            "brandName": "Genérico"
+        },
+        "price": 350,
+        "category": "/Almacén/Snacks/Nachos, maní y palitos/",
+        "unit": "($350,00 x 1 U.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/178481/7798143356490_04.jpg?v=1757387650"
+    },
+    {
+        "id": "601112",
+        "name": "Duraznos amarillos en mitades Carrefour Light 800 g.",
+        "brand": {
+            "brandId": 2000386,
+            "brandName": "Carrefour"
+        },
+        "price": 442,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de frutas/",
+        "unit": "($552,50 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/188129/7791720002537_01.jpg?v=1757387800"
+    },
+    {
+        "id": "695917",
+        "name": "Jardinera Inalpa hortalizas y legumbres lata 300 g.",
+        "brand": {
+            "brandId": 2001077,
+            "brandName": "Inalpa"
+        },
+        "price": 127,
+        "category": "/Almacén/Enlatados y Conservas/Conservas de legumbres y vegetales/",
+        "unit": "($423,33 x 1 K.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/241887/7792350067026_02.jpg?v=1757381800"
+    },
+    {
+        "id": "436123",
+        "name": "Aceite de oliva Oliovita extra virgen 500 cc.",
+        "brand": {
+            "brandId": 2001645,
+            "brandName": "Oliovita"
+        },
+        "price": 1225,
+        "category": "/Almacén/Aceites y vinagres/Aceites de oliva/",
+        "unit": "($2.450,00 x 1 L.)",
+        "imageURL": "https://carrefourar.vtexassets.com/arquivos/ids/167047/7798061190312_01.jpg?v=1757388641"
+    }
+]

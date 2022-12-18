@@ -1,0 +1,9 @@
+.card-item--price {
+    font-size: 1.5rem;
+}
+.card-item--price i{
+    margin-right: 2px;
+}
+.card-item--price strong{
+    margin-right: 2px;
+}

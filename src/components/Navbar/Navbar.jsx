@@ -1,10 +1,9 @@
-import CartWidget from "../CartWidget/CartWidget";
 import "./Navbar.css";
 import { ROUTES } from '../../utils/navbar-routes';
 import { Link, NavLink } from 'react-router-dom'
 import { Fragment } from "react";
+function Navbar(props) {  
 
-function Navbar(props) {
     return (
         <nav className="navbar navbar-expand-lg bg-light">
             <div className="container-fluid">
@@ -45,10 +44,11 @@ function Navbar(props) {
                         })}
                     </ul>
                     <form className="d-flex" role="search">
-                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-outline-success" type="submit">Search</button>
+                        <input className="form-control me-2" type="search" name="search" placeholder="Search" aria-label="Search" />
+                        <button className="btn btn-outline-primary" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
                     </form>
-                    <CartWidget />
                 </div>
             </div>
         </nav>

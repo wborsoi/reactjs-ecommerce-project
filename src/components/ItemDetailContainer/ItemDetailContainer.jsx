@@ -12,15 +12,17 @@ export default function ItemDetailContainer(props) {
         getProductByID(id).then((product)=> {setProduct(product)});
     }, [id]);
 
+    console.log("ItemDetailContainer", product);
+
     if(product){
         return (
             <div className="row">
                 <div className="col-6">
-                    <img className="img-fluid" src={product?.photoURL} alt={product?.name} />
+                    <img className="img-fluid" src={product?.imageURL} alt={product?.name} />
                 </div>
                 <div className="col-6 d-flex flex-column justify-content-center">
                     <h2>{product?.name}</h2>
-                    <h3>Marca: {product?.brand}</h3>
+                    <h3>Marca: {product?.brand?.brandName}</h3>
                     <p><strong>$ {product?.price}</strong></p>
                     <button className="btn btn-success">Comprar</button>
                 </div>
