@@ -10,6 +10,11 @@ export const ROUTES = [
         name: "Ofertas"
     },
     {
+        id: "TIENDA",
+        path: "/tienda",
+        name: "Tienda"
+    },
+    {
         id: "ALMACEN",
         path: "almacen",
         name: "Almacen",

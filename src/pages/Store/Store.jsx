@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useParams, useSearchParams } from "react-router-dom";
 import CartWidget from "../../components/CartWidget/CartWidget";
-import { getAllProducts, searchProductsByText } from "../../services/storeServices";
+import { getAllProducts, searchProductsByText, getAllProductsByFilters } from "../../services/storeServices";
 import LoadingScreen from "../LoadingScreen";
 import StoreItemList from "./StoreItemList";
 
@@ -14,13 +14,9 @@ export default function Store(props) {
     useEffect(() => {
         console.log("searchParams", searchParams.get("search"));
 
-        if (searchParams?.get("search")) {
-            searchProductsByText(searchParams.get("search")).then((productsList) => { setProducts(productsList) });
-        }
-        else {
-            getAllProducts().then((productsList) => { setProducts(productsList) });
-        }
-    }, [products]);
+        getAllProductsByFilters(category, subcategory, searchParams.get("search")).then((productsList) => { setProducts(productsList) })
+
+    }, [searchParams, category, subcategory]);
 
     useEffect(() => {
         setProducts(null);

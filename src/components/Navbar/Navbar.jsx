@@ -5,7 +5,7 @@ import { Fragment } from "react";
 function Navbar(props) {  
 
     return (
-        <nav className="navbar navbar-expand-lg bg-light">
+        <nav className="navbar navbar-expand-lg sticky-top bg-light">
             <div className="container-fluid">
                 <a className="navbar-brand brand-logo-text" href="/#">CHEAP BUY</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +44,7 @@ function Navbar(props) {
                         })}
                     </ul>
                     <form className="d-flex" role="search">
-                        <input className="form-control me-2" type="search" name="search" placeholder="Search" aria-label="Search" />
+                        <input className="form-control me-2" type="search" name="search" placeholder="Buscar" aria-label="Search" />
                         <button className="btn btn-outline-primary" type="submit">
                             <i class="bi bi-search"></i>
                         </button>

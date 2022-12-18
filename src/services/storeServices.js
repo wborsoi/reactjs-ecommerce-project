@@ -1,6 +1,6 @@
 import STORE_ALL_PRODUCTS from './products.json';
 import STORE_ALL_PRODUCTS_DUMMY from '../database/productosDummy.json'
-import {ROUTES} from '../utils/navbar-routes';
+import { ROUTES } from '../utils/navbar-routes';
 
 const productNotFound = {
     name: "Producto no encontrado.",
@@ -10,10 +10,10 @@ const productNotFound = {
 }
 
 export function getProductByID(productId) {
-    return new Promise((resolve)=> {
-        setTimeout(()=> {
+    return new Promise((resolve) => {
+        setTimeout(() => {
             const response = STORE_ALL_PRODUCTS_DUMMY.filter((product) => String(product.id) === String(productId))[0];
-            if(response)
+            if (response)
                 resolve(response);
             else
                 resolve(productNotFound);
@@ -22,31 +22,52 @@ export function getProductByID(productId) {
 }
 
 export function getAllProducts() {
-    return new Promise((resolve)=> {
-        setTimeout(()=> {
+    return new Promise((resolve) => {
+        setTimeout(() => {
             resolve(STORE_ALL_PRODUCTS_DUMMY);
         }, 1500);
     });
 }
 
 export function getAllProductsByCategory(categoryPath) {
-    if(categoryPath){
+    if (categoryPath) {
         const categoria = ROUTES.filter((route) => route.id === categoryPath);
         console.log("Categoria encontrada: ", categoria);
     }
 }
 
-export function getAllProductsBySubCategory(subCategoryPath) {
-    
+export function getAllProductsByFilters(category, subcategory, text) {
+    text = (text ? text.toUpperCase() : "");
+    category = (category ? category.toUpperCase() : "");
+    subcategory = (subcategory ? subcategory.toUpperCase() : "");
+
+    return new Promise((resolve) => {
+        setTimeout(() => {
+
+            let response = STORE_ALL_PRODUCTS_DUMMY.filter((product) => String(product.category).toUpperCase().includes(category));
+            response = response.filter((product) => String(product.category).toUpperCase().includes(subcategory));
+            response = response.filter((product) => (String(product.name).toUpperCase().includes(text) || String(product.brand.brandName).toUpperCase().includes(text)));
+
+            // const response = STORE_ALL_PRODUCTS_DUMMY.filter((product) => (
+            //     (String(product.name).toUpperCase().includes(text)
+            //         || String(product.brand.brandName).toUpperCase().includes(text))
+            //     && String(product.category).toUpperCase().includes(category))
+            //     && String(product.category).toUpperCase().includes(subcategory));
+
+            console.log("Todos los productos:", STORE_ALL_PRODUCTS_DUMMY)
+            console.log("Resultados encontrados:", response)
+            resolve(response);
+        }, 1500);
+    });
 }
 
 export function searchProductsByText(text) {
     text = text.toUpperCase();
-    return new Promise((resolve)=> {
-        setTimeout(()=> {
+    return new Promise((resolve) => {
+        setTimeout(() => {
             const response = STORE_ALL_PRODUCTS_DUMMY.filter((product) => (
-                    String(product.name).toUpperCase().includes(text) 
-                || String(product.brand.brandName).toUpperCase().includes(text) 
+                String(product.name).toUpperCase().includes(text)
+                || String(product.brand.brandName).toUpperCase().includes(text)
                 || String(product.category).toUpperCase().includes(text)));
             resolve(response);
         }, 1500);
