@@ -1,4 +1,3 @@
-import STORE_ALL_PRODUCTS from './products.json';
 import STORE_ALL_PRODUCTS_DUMMY from '../database/productosDummy.json'
 import { ROUTES } from '../utils/navbar-routes';
 
@@ -43,19 +42,10 @@ export function getAllProductsByFilters(category, subcategory, text) {
 
     return new Promise((resolve) => {
         setTimeout(() => {
+            let response = STORE_ALL_PRODUCTS_DUMMY.filter((product) => String(product.category).normalize("NFD").replace(/\p{Diacritic}/gu, "").toUpperCase().includes(category));
+            response = response.filter((product) => String(product.category).normalize("NFD").replace(/\p{Diacritic}/gu, "").toUpperCase().includes(subcategory));
+            response = response.filter((product) => (String(product.name).normalize("NFD").replace(/\p{Diacritic}/gu, "").toUpperCase().includes(text) || String(product.brand.brandName).normalize("NFD").replace(/\p{Diacritic}/gu, "").toUpperCase().includes(text)));
 
-            let response = STORE_ALL_PRODUCTS_DUMMY.filter((product) => String(product.category).toUpperCase().includes(category));
-            response = response.filter((product) => String(product.category).toUpperCase().includes(subcategory));
-            response = response.filter((product) => (String(product.name).toUpperCase().includes(text) || String(product.brand.brandName).toUpperCase().includes(text)));
-
-            // const response = STORE_ALL_PRODUCTS_DUMMY.filter((product) => (
-            //     (String(product.name).toUpperCase().includes(text)
-            //         || String(product.brand.brandName).toUpperCase().includes(text))
-            //     && String(product.category).toUpperCase().includes(category))
-            //     && String(product.category).toUpperCase().includes(subcategory));
-
-            console.log("Todos los productos:", STORE_ALL_PRODUCTS_DUMMY)
-            console.log("Resultados encontrados:", response)
             resolve(response);
         }, 1500);
     });

@@ -12,8 +12,6 @@ export default function Store(props) {
     const [searchParams, setSearchParams] = useSearchParams();
 
     useEffect(() => {
-        console.log("searchParams", searchParams.get("search"));
-
         getAllProductsByFilters(category, subcategory, searchParams.get("search")).then((productsList) => { setProducts(productsList) })
 
     }, [searchParams, category, subcategory]);

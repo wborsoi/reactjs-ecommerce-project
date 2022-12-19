@@ -2,7 +2,7 @@ import './ItemCard.css';
 
 export default function ItemCard({ title, text, photoURL, price, children }) {
     return (
-        <div className="card" style={{ width: "18rem" }}>
+        <div className="card fade-in-fwd" style={{ width: "18rem" }}>
             <img src={photoURL} className="card-img-top" alt={title} loading="lazy" />
             <div className="card-body d-flex flex-column justify-content-between">
                 <h5 className="card-title">{title}</h5>
