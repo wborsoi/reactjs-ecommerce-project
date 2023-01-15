@@ -1,4 +1,7 @@
 import { useState } from "react"
+import BtnQuantityChange from "../Buttons/FunctionButtons/BtnQuantityChange";
+import BtnAddCart from "../Buttons/StyledButtons/BtnAddCart";
+import BtnRemoveCart from "../Buttons/StyledButtons/BtnRemoveCart";
 import './AddItemButton.css'
 
 export default function AddItemButton({ children, addToCartFunction, removeFromCartFunction, quantity, setQuantity, isAddable }) {
@@ -7,15 +10,6 @@ export default function AddItemButton({ children, addToCartFunction, removeFromC
     const changeQuantityHandler = () => {
         setChangeQuantity(!changeQuantity);
         setQuantity(1);
-    }
-
-    const increaseQuantityHandler = () => {
-        setQuantity(quantity + 1);
-    }
-
-    const decreaseQuantityHandler = () => {
-        if (quantity > 1)
-            setQuantity(quantity - 1);
     }
 
     const addToCartHandler = () => {
@@ -31,17 +25,9 @@ export default function AddItemButton({ children, addToCartFunction, removeFromC
         if (changeQuantity) {
             return (
                 <div className="add-item-btn-container">
-                    <button className="btn btn-danger" onClick={changeQuantityHandler}>
-                        <i class="bi bi-bag-x"></i>
-                    </button>
-                    <button className="btn btn-secondary add-item-btn-decrease" onClick={decreaseQuantityHandler}>-</button>
-                    <div className="add-item-btn-indicator">
-                        <p>{quantity}</p>
-                    </div>
-                    <button className="btn btn-secondary add-item-btn-increase" onClick={increaseQuantityHandler}>+</button>
-                    <button className="btn btn-success" onClick={addToCartHandler}>
-                        <i class="bi bi-bag-plus"></i>
-                    </button>
+                    <BtnRemoveCart onClick={changeQuantityHandler} />
+                    <BtnQuantityChange quantityState={quantity} setQuantityState={setQuantity} />
+                    <BtnAddCart onClick={addToCartHandler} />
                 </div>
             )
         }
@@ -50,11 +36,7 @@ export default function AddItemButton({ children, addToCartFunction, removeFromC
         }
     }
     else {
-        return (
-            <button className="btn btn-danger" onClick={removeFromCartHandler}>
-                <i class="bi bi-bag-x"></i>
-            </button>
-        );
+        return <BtnRemoveCart onClick={removeFromCartHandler} />
     }
 
 }

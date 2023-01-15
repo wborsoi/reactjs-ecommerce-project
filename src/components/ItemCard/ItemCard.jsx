@@ -16,7 +16,7 @@ export default function ItemCard({ title, text, photoURL, price, children }) {
                     <li class="list-group-item">
                         <h6 className='card-item--price'>
                             <i className="bi bi-currency-dollar"></i>
-                            <strong>{price}</strong>
+                            <strong>{price.toFixed(2)}</strong>
                         </h6>
                     </li>
                     <li class="list-group-item">

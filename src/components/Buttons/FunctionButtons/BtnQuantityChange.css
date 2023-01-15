@@ -1,0 +1,4 @@
+.btn-quantitychange-container {
+    display: flex;
+    justify-content: space-between;
+}

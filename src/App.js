@@ -9,6 +9,7 @@ import Store from './pages/Store/Store'
 import PageNotFound from './pages/PageNotFound';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import ContextProvider from './components/Context/ContextProvider';
+import CartReview from './pages/Cart/CartReview';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/tienda/:category' element={<Store />} />
           <Route path='/tienda/:category/:subcategory' element={<Store />} />
           <Route path='/item/:id' element={<ItemDetailContainer />} />
+          <Route path='/carrito' element={<CartReview />} />
           <Route path='*' element={<PageNotFound />} />
         </Routes>
     </div>
