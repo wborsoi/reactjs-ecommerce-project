@@ -1,11 +1,12 @@
 import { useState } from "react"
 import './AddItemButton.css'
 
-export default function AddItemButton({ children, addToCartFunction, removeFromCartFunction, quantity, setQuantity, isEnable }) {
+export default function AddItemButton({ children, addToCartFunction, removeFromCartFunction, quantity, setQuantity, isAddable }) {
     const [changeQuantity, setChangeQuantity] = useState(false);
 
     const changeQuantityHandler = () => {
         setChangeQuantity(!changeQuantity);
+        setQuantity(1);
     }
 
     const increaseQuantityHandler = () => {
@@ -26,7 +27,7 @@ export default function AddItemButton({ children, addToCartFunction, removeFromC
         removeFromCartFunction();
     }
 
-    if (isEnable) {
+    if (isAddable) {
         if (changeQuantity) {
             return (
                 <div className="add-item-btn-container">
