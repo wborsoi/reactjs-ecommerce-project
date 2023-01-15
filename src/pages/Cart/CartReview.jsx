@@ -28,7 +28,7 @@ export default function CartReview(props) {
     const saveEditItemRowHandler = () => {
       let newCart = cart;
       const indexOfItem = newCart.indexOf(item);
-      if(indexOfItem){
+      if(indexOfItem >= 0){
         newCart[indexOfItem].quantity = editableQuantity;
       }
       setCart([...newCart]);
