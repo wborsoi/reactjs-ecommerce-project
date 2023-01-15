@@ -26,6 +26,12 @@ export default function CartReview(props) {
     };
 
     const saveEditItemRowHandler = () => {
+      let newCart = cart;
+      const indexOfItem = newCart.indexOf(item);
+      if(indexOfItem){
+        newCart[indexOfItem].quantity = editableQuantity;
+      }
+      setCart([...newCart]);
       setIsEditable(false);
     };
 
