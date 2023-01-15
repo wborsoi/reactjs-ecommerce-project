@@ -1,5 +1,7 @@
 import STORE_ALL_PRODUCTS_DUMMY from '../database/productosDummy.json'
 import { ROUTES } from '../utils/navbar-routes';
+import { database } from '../firebase/config'; 
+import * as firestore  from 'firebase/firestore'
 
 const productNotFound = {
     name: "Producto no encontrado.",
@@ -36,6 +38,8 @@ export function getAllProductsByCategory(categoryPath) {
 }
 
 export function getAllProductsByFilters(category, subcategory, text) {
+    testDatabase();
+
     text = (text ? text.toUpperCase() : "");
     category = (category ? category.toUpperCase() : "");
     subcategory = (subcategory ? subcategory.toUpperCase() : "");
@@ -62,4 +66,30 @@ export function searchProductsByText(text) {
             resolve(response);
         }, 1500);
     });
+}
+
+async function testDatabase() {
+    const docRef = firestore.doc(database, '/products', "TulEZXGX1hgZLZip3lNp");
+    const document = await firestore.getDoc(docRef);
+    const products = document.data();
+    console.log("products", products, "id", document.id)
+
+    getAllProductsFromDatabase();
+}
+
+async function getAllProductsFromDatabase (){
+    const getProductDataFormatted = (product) => {
+        //const {brand, categoryId, name, photoURL, price, subcategoryId} = product.date()
+        //const id = product.id;
+        return {
+            id: product.id,
+            ...product.data()
+        }
+    };
+
+    const productsCollection = firestore.collection(database, '/products')
+    const documents = await firestore.getDocs(productsCollection);
+    let allProducts = [];
+    documents.forEach((product) => {allProducts = [...allProducts, getProductDataFormatted(product)]});
+    console.log("allProducts", allProducts);
 }

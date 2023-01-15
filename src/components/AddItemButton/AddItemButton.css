@@ -1,0 +1,28 @@
+.add-item-btn-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+}
+
+.add-item-btn-indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.add-item-btn-indicator p {
+    margin: 0;
+}
+
+.add-item-btn-increase {
+    margin-right: 4px;
+    width: 100px !important;
+}
+
+.add-item-btn-decrease {
+    margin-left: 4px;
+    width: 100px !important;
+}

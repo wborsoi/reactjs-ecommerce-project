@@ -4,11 +4,11 @@ import Context from '../../components/Context/Context';
 import { useContext } from 'react';
 import { useState } from 'react';
 import './Store.css';
+import AddItemButton from '../../components/AddItemButton/AddItemButton';
 
 export default function StoreItem({ product }) {
     const {cart, setCart} = useContext(Context);
-    const [quantity, setQuantity] = useState(0);
-
+    const [quantity, setQuantity] = useState(1);
     //console.log("CartContext", cart)
 
     const removeItemFromCartHandler = () => {
@@ -17,26 +17,20 @@ export default function StoreItem({ product }) {
     }
 
     const addItemToCartHandler = () => {
-        let newCart = cart;
-        newCart.push({
+        setCart([...cart, {
             product: product,
             quantity: quantity
-        });
-        setCart(newCart);
+        }]);
     };
 
-    const RemoveButton = () => {
-        <button className="btn btn-danger">-</button>
+    const isProductOnCart = () => {
+        const resultado = cart.indexOf(product);
+        console.log("Resultado", resultado)
+        return resultado;
     }
 
-    const CountButton = () => {
-        return (
-            <div className="btn d-flex justify-content-between">
-                <button className="btn btn-secondary">-</button>
-                <button className="btn btn-secondary">+</button>
-            </div>
-        );
-    }
+    const isOnCart = isProductOnCart();
+
 
     return (
         <div className="store-item-container">
@@ -47,7 +41,8 @@ export default function StoreItem({ product }) {
                 price={product?.price}
             >
                 <Link to={`/item/${product?.id}`} className="btn btn-primary my-2">Ver mas</Link>
-                <button className="btn btn-secondary" onClick={addItemToCartHandler}>Añadir al carrito</button>
+                <AddItemButton className="btn btn-secondary" addToCartFunction={addItemToCartHandler} removeFromCartFunction={isProductOnCart} quantity={quantity} setQuantity={setQuantity} isEnable={isOnCart}>Añadir al carrito</AddItemButton>
+                <button onClick={isProductOnCart}>Test</button>
             </ItemCard>
         </div>
     );

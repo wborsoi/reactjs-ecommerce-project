@@ -1,7 +1,8 @@
-import { useEffect } from "react";
+import { Fragment, useEffect } from "react";
 import { useState } from "react";
 import { useParams, useSearchParams } from "react-router-dom";
 import CartWidget from "../../components/CartWidget/CartWidget";
+import StoreFilters from "../../components/StoreFilters/StoreFilters";
 import { getAllProducts, searchProductsByText, getAllProductsByFilters } from "../../services/storeServices";
 import LoadingScreen from "../LoadingScreen";
 import StoreItemList from "./StoreItemList";
@@ -9,24 +10,29 @@ import StoreItemList from "./StoreItemList";
 export default function Store(props) {
     const { category, subcategory } = useParams();
     const [products, setProducts] = useState();
-    const [searchParams, setSearchParams] = useSearchParams();
+    const [searchParams] = useSearchParams();
 
     useEffect(() => {
-        getAllProductsByFilters(category, subcategory, searchParams.get("search")).then((productsList) => { setProducts(productsList) })
-
+        getAllProductsByFilters(category, subcategory, searchParams.get("search")).then((productsList) => { setProducts(productsList) });
     }, [searchParams, category, subcategory]);
 
-    useEffect(() => {
-        setProducts(null);
-    }, [category, subcategory]);
-
     return (
-        <div className="w-100 h-100">
+        <div className="w-100 h-100 p-3">
             <CartWidget />
             <h2>Tienda</h2>
             <h3>Categoria: <strong>{category ? category : "Todas"}</strong></h3>
             <h3>Subcategoria: <strong>{subcategory ? subcategory : "Todas"}</strong></h3>
-            {products ? <StoreItemList products={products} /> : <LoadingScreen />}
+            {products ? <Fragment>
+                <div className="row">
+                    <div className="col-12 col-lg-3">
+                        <StoreFilters />
+                    </div>
+                    <div className="col-12 col-lg-9">
+                        <StoreItemList products={products} />
+                    </div>
+                </div>
+            </Fragment> 
+            : <LoadingScreen />}
         </div>
     );
 }
