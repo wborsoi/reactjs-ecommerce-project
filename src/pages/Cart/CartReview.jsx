@@ -28,7 +28,7 @@ export default function CartReview(props) {
     const saveEditItemRowHandler = () => {
       let newCart = cart;
       const indexOfItem = newCart.indexOf(item);
-      if(indexOfItem >= 0){
+      if (indexOfItem >= 0) {
         newCart[indexOfItem].quantity = editableQuantity;
       }
       setCart([...newCart]);
@@ -40,7 +40,7 @@ export default function CartReview(props) {
         return <BtnEdit className="me-1" onClick={editItemRowHandler} />;
       }
       else {
-        return <BtnSave className="me-1" onClick={saveEditItemRowHandler}/>
+        return <BtnSave className="me-1" onClick={saveEditItemRowHandler} />
       }
     };
 
@@ -67,7 +67,7 @@ export default function CartReview(props) {
         <td>{`$ ${(product?.price).toFixed(2)}`}</td>
         <td>{!isEditable ? quantity : <div className="d-flex justify-content-between">
           <BtnQuantityChange quantityState={editableQuantity} setQuantityState={setEditableQuantity} />
-        </div> }</td>
+        </div>}</td>
         <td>{`$ ${(product?.price * editableQuantity).toFixed(2)}`}</td>
         <td>
           <EditableButton />
@@ -108,7 +108,9 @@ export default function CartReview(props) {
           </table>
         </div>
         <div>
-          <BtnSave className="w-100"><span className="ms-2">Ir a pagar</span></BtnSave>
+          <Link to="/checkout">
+            <BtnSave className="w-100"><span className="ms-2">Ir a pagar</span></BtnSave>
+          </Link>
         </div>
       </section>
     );
