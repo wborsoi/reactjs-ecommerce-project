@@ -10,10 +10,11 @@ import PageNotFound from './pages/PageNotFound';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import CartReview from './pages/Cart/CartReview';
 import CheckoutScreen from './pages/Checkout/CheckoutScreen';
+import LoginScreen from './pages/Login/LoginScreen';
 
 function App() {
   return (
-    <div className='App'>
+    <main className='App'>
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
@@ -23,9 +24,10 @@ function App() {
           <Route path='/item/:id' element={<ItemDetailContainer />} />
           <Route path='/carrito' element={<CartReview />} />
           <Route path='/checkout' element={<CheckoutScreen />} />
+          <Route path='/login' element={<LoginScreen />} />
           <Route path='*' element={<PageNotFound />} />
         </Routes>
-    </div>
+    </main>
   );
 
 }

@@ -2,8 +2,8 @@ import "./Navbar.css";
 import { ROUTES } from '../../utils/navbar-routes';
 import { Link, NavLink } from 'react-router-dom'
 import { Fragment } from "react";
-function Navbar(props) {  
-
+import { NavbarUserBtn } from "./NavbarUserBtn";
+function Navbar(props) {
     return (
         <nav className="navbar navbar-expand-lg sticky-top bg-light">
             <div className="container-fluid">
@@ -43,12 +43,8 @@ function Navbar(props) {
                             }
                         })}
                     </ul>
-                    <form className="d-flex" role="search">
-                        <input className="form-control me-2" type="search" name="search" placeholder="Buscar" aria-label="Search" />
-                        <button className="btn btn-outline-primary" type="submit">
-                            <i className="bi bi-search"></i>
-                        </button>
-                    </form>
+
+                    <NavbarUserBtn />
                 </div>
             </div>
         </nav>

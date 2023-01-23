@@ -3,10 +3,12 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 import LoadingScreen from "../../pages/LoadingScreen";
 import { getProductByID } from "../../services/storeServices";
+import AddItemButton from "../AddItemButton/AddItemButton";
 
 export default function ItemDetailContainer(props) {
     const { id } = useParams();
     const [product, setProduct] = useState();
+    const [quantity, setQuantity] = useState(1);
 
     useEffect(() => {
         getProductByID(id).then((product) => { setProduct(product) });
@@ -33,7 +35,7 @@ export default function ItemDetailContainer(props) {
                         </li>
                         <li class="list-group-item">
                             <p className="card-text m-0">
-                            <i class="bi bi-box2"></i>
+                                <i class="bi bi-box2"></i>
                                 <span className="mx-2">{product?.unit}</span>
                             </p>
                         </li>
@@ -44,7 +46,14 @@ export default function ItemDetailContainer(props) {
                             </h6>
                         </li>
                     </ul>
-                    <button className="btn btn-success">Comprar</button>
+                    <AddItemButton
+                        className="btn btn-success"
+                        quantity={quantity}
+                        setQuantity={setQuantity}
+                        product={product}
+                    >
+                        Comprar
+                    </AddItemButton>
                 </div>
             </div>
         );

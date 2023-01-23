@@ -60,9 +60,9 @@ export default function CheckoutScreen(props) {
 
     if (cart.length > 0) {
         return (
-            <section className="container">
+            <section className="container py-5">
                 <div className="py-5 text-center">
-                    <h2 className="brand-logo-text fs-1">Finalizar compra</h2>
+                    <h2 className="checkout-cart-title">Finalizar compra</h2>
                 </div>
 
                 <div className="row g-5">
@@ -94,7 +94,7 @@ export default function CheckoutScreen(props) {
 
                                 <div className="col-sm-6">
                                     <label for="lastName" className="form-label">Apellido/s</label>
-                                    <input type="text" className="form-control" id="lastName" placeholder="" value="" required="" />
+                                    <input type="text" className="form-control" id="lastName" placeholder="" value="" required />
                                     <div className="invalid-feedback">
                                         Este campo es obligatorio.
                                     </div>
@@ -102,7 +102,7 @@ export default function CheckoutScreen(props) {
 
                                 <div className="col-12">
                                     <label for="email" className="form-label">Email</label>
-                                    <input type="email" className="form-control" id="email" placeholder="you@example.com" />
+                                    <input type="email" className="form-control" id="email" />
                                     <div className="invalid-feedback">
                                         Este campo es obligatorio.
                                     </div>
@@ -110,15 +110,10 @@ export default function CheckoutScreen(props) {
 
                                 <div className="col-12">
                                     <label for="address" className="form-label">Direccion</label>
-                                    <input type="text" className="form-control" id="address" placeholder="1234 Main St" required="" />
+                                    <input type="text" className="form-control" id="address" placeholder="Lima 1234" required />
                                     <div className="invalid-feedback">
                                         Este campo es obligatorio.
                                     </div>
-                                </div>
-
-                                <div className="col-12">
-                                    <label for="address2" className="form-label">Direccion 2 <span className="text-muted">(Optional)</span></label>
-                                    <input type="text" className="form-control" id="address2" placeholder="Apartment or suite" />
                                 </div>
 
                                 <div className="col-md-5">
@@ -210,7 +205,7 @@ export default function CheckoutScreen(props) {
 
                             <hr className="my-4" />
 
-                            <button className="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+                            <button className="w-100 btn btn-success btn-lg" type="submit">Finalizar compra</button>
                         </form>
                     </div>
                 </div>

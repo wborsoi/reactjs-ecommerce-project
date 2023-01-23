@@ -2,3 +2,8 @@
     height: 60px;
     margin-right: 5px;
 }
+
+.checkout-cart-title {
+    font-family: 'Libre Barcode 39 Text', sans-serif;
+    font-size: 4rem;
+}

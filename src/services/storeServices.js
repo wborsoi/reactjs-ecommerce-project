@@ -72,9 +72,16 @@ async function testDatabase() {
     const docRef = firestore.doc(database, '/products', "TulEZXGX1hgZLZip3lNp");
     const document = await firestore.getDoc(docRef);
     const products = document.data();
-    console.log("products", products, "id", document.id)
+    console.log("productsDatabase", products, "id", document.id)
 
     getAllProductsFromDatabase();
+    // addNewProduct({
+    //     brand: "Test brand",
+    //     category_id: "TEST ID CATEGORY",
+    //     name: "Producto de test",
+    //     photoURL: "HTTEST",
+    //     price: 259.99
+    // })
 }
 
 async function getAllProductsFromDatabase (){
@@ -91,5 +98,10 @@ async function getAllProductsFromDatabase (){
     const documents = await firestore.getDocs(productsCollection);
     let allProducts = [];
     documents.forEach((product) => {allProducts = [...allProducts, getProductDataFormatted(product)]});
-    console.log("allProducts", allProducts);
+    console.log("allProductsDatabase", allProducts);
+}
+
+async function addNewProduct(product) {
+    const collection = firestore.collection(database, "/products");
+    firestore.addDoc(collection, product).then(()=> {getAllProductsFromDatabase()})
 }
