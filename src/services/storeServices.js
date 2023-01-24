@@ -37,18 +37,21 @@ export function getAllProductsByCategory(categoryPath) {
     }
 }
 
-export function getAllProductsByFilters(category, subcategory, text) {
+export function getAllProductsByFilters(category, subcategory, text, priceFrom, priceTo) {
     testDatabase();
 
     text = (text ? text.toUpperCase() : "");
     category = (category ? category.toUpperCase() : "");
     subcategory = (subcategory ? subcategory.toUpperCase() : "");
+    priceFrom = (priceFrom ? Number(priceFrom) : 0);
+    priceTo = (priceTo ? Number(priceTo) : Number.MAX_SAFE_INTEGER);
 
     return new Promise((resolve) => {
         setTimeout(() => {
             let response = STORE_ALL_PRODUCTS_DUMMY.filter((product) => String(product.category).normalize("NFD").replace(/\p{Diacritic}/gu, "").toUpperCase().includes(category));
             response = response.filter((product) => String(product.category).normalize("NFD").replace(/\p{Diacritic}/gu, "").toUpperCase().includes(subcategory));
             response = response.filter((product) => (String(product.name).normalize("NFD").replace(/\p{Diacritic}/gu, "").toUpperCase().includes(text) || String(product.brand.brandName).normalize("NFD").replace(/\p{Diacritic}/gu, "").toUpperCase().includes(text)));
+            response = response.filter((product) => (product.price >= priceFrom && product.price <= priceTo));
 
             resolve(response);
         }, 1500);

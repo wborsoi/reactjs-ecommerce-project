@@ -1,0 +1,31 @@
+.bo-section {
+    height: 100%;
+    display: flex;
+}
+
+.bo-form-container {
+    border-radius: 20px;
+    border-width: thin;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-style: dashed;
+    padding: 20px;
+}
+
+.bo-title {
+    font-family: 'Libre Barcode 39 Text', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.bo-category-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    border-width: thin;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-style: solid;
+    padding: 20px;
+    margin: 20px 0;
+    width: 100%;
+}

@@ -11,22 +11,31 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import CartReview from './pages/Cart/CartReview';
 import CheckoutScreen from './pages/Checkout/CheckoutScreen';
 import LoginScreen from './pages/Login/LoginScreen';
+import BackofficeMain from './pages/Backoffice/BackofficeMain';
+import CategoriesBO from './pages/Backoffice/CategoriesBO';
+import ProductsBO from './pages/Backoffice/ProductsBO';
+import OffersBO from './pages/Backoffice/OffersBO';
 
 function App() {
   return (
     <main className='App'>
-        <Navbar />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/tienda' element={<Store />} />
-          <Route path='/tienda/:category' element={<Store />} />
-          <Route path='/tienda/:category/:subcategory' element={<Store />} />
-          <Route path='/item/:id' element={<ItemDetailContainer />} />
-          <Route path='/carrito' element={<CartReview />} />
-          <Route path='/checkout' element={<CheckoutScreen />} />
-          <Route path='/login' element={<LoginScreen />} />
-          <Route path='*' element={<PageNotFound />} />
-        </Routes>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/tienda' element={<Store />} />
+        <Route path='/tienda/:category' element={<Store />} />
+        <Route path='/tienda/:category/:subcategory' element={<Store />} />
+        <Route path='/item/:id' element={<ItemDetailContainer />} />
+        <Route path='/carrito' element={<CartReview />} />
+        <Route path='/checkout' element={<CheckoutScreen />} />
+        <Route path='/login' element={<LoginScreen />} />
+        <Route path='backoffice' element={<BackofficeMain />} >
+          <Route path="categories" element={<CategoriesBO />} />
+          <Route path="products" element={<ProductsBO />} />
+          <Route path="offers" element={<OffersBO />} />
+        </Route>
+        <Route path='*' element={<PageNotFound />} />
+      </Routes>
     </main>
   );
 

@@ -1,16 +1,14 @@
 import { database } from '../firebase/config';
 import * as firestore from 'firebase/firestore'
 
-export async function signinUser(email, password, fistName, lastName) {
+export async function signinUser(email, password, firstName, lastName) {
     const userData = {
-        fistName: fistName ? fistName : null,
+        firstName: firstName ? firstName : null,
         lastName: lastName ? lastName : null,
         email: email,
         password: password
     }
-    //let allUsersList = JSON.parse(localStorage.getItem("userDatabase"));
 
-    /***************************************************** */
     const collection = firestore.collection(database, "/users");
     const query = firestore.query(collection, firestore.where("email", "==", String(email)));
     const userPromise = await firestore.getDocs(query);
@@ -30,32 +28,6 @@ export async function signinUser(email, password, fistName, lastName) {
             });
         }
     })
-
-
-    /***************************************************** */
-
-
-
-    // if (!allUsersList || allUsersList.length <= 0) {
-    //     localStorage.setItem("userDatabase", JSON.stringify([]));
-    //     allUsersList = JSON.parse(localStorage.getItem("userDatabase"));
-    // }
-
-    // for (const user of allUsersList) {
-    //     if (user && String(user?.email) === String(email)) {
-    //         return {
-    //             success: false,
-    //             msg: "Ya existe una cuenta con el email indicado."
-    //         }
-    //     }
-    // }
-
-    // localStorage.setItem("userDatabase", JSON.stringify([...allUsersList, sesionObj]));
-    // return {
-    //     success: true,
-    //     msg: "Usuario registrado exitosamente.",
-    //     sesionObj
-    // }
 }
 
 export async function loginUser(email, password) {
@@ -73,8 +45,7 @@ export async function loginUser(email, password) {
                 }
 
                 if (String(userData?.email) === String(email) && String(userData?.password) === String(password)) {
-                    localStorage.setItem("userSesion", JSON.stringify(userData));
-                    console.log("User from database", userData);
+                    localStorage.setItem("userSession", JSON.stringify(userData));
 
                     resolve({
                         success: true,
@@ -92,11 +63,13 @@ export async function loginUser(email, password) {
     })
 }
 
-export function getUserSesion() {
-    const userSesion = JSON.parse(localStorage.getItem("userSesion"));
-    return userSesion;
+export function getUserSession() {
+    const userSession = JSON.parse(localStorage.getItem("userSession"));
+    loginUser(userSession?.email, userSession?.password);
+
+    return userSession;
 }
 
 export function logout() {
-    localStorage.removeItem("userSesion");
+    localStorage.removeItem("userSession");
 }

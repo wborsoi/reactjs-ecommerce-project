@@ -7,7 +7,7 @@ import { Navigate } from 'react-router-dom';
 
 export default function LoginScreen(props) {
 
-    const {userSesion, setUserSesion} = useContext(Context);
+    const {userSession, setUserSession} = useContext(Context);
 
     const loginHandler = async (e) => {
         e.preventDefault()
@@ -16,14 +16,14 @@ export default function LoginScreen(props) {
         console.log("Email", email, "Password", password);
         const response = await DBService.loginUser(email, password);
         if(response.success){
-            setUserSesion({...response.user});
+            setUserSession({...response.user});
         }
         else {
             alert(response.msg);
         }
     }
 
-    if(!userSesion){
+    if(!userSession){
         return (
             <div className="container py-5">
                 <div className="form-signin w-100 m-auto px-5">

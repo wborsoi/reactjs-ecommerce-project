@@ -4,24 +4,25 @@ import { logout } from "../../services/loginServices";
 import Context from "../Context/Context";
 
 export function NavbarUserBtn(params) {
-    const { userSesion, setUserSesion } = useContext(Context);
+    const { userSession, setUserSession } = useContext(Context);
 
     const logoutHandler = () => {
         logout();
-        setUserSesion(null);
+        setUserSession(null);
     }
 
-    if (userSesion) {
+    if (userSession) {
         return (
-            <div className="dropdown">
-                <a href="#" className="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <div className="dropdown dropstart">
+                <Link className="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="https://github.com/mdo.png" alt="" width="32" height="32" className="rounded-circle me-2" />
-                    <strong>mdo</strong>
-                </a>
+                    <strong>{userSession?.firstName}</strong>
+                </Link>
                 <ul className="dropdown-menu text-small shadow">
-                    <li><a className="dropdown-item" href="#">New project...</a></li>
-                    <li><a className="dropdown-item" href="#">Settings</a></li>
-                    <li><a className="dropdown-item" href="#">Profile</a></li>
+                    <li><Link className="dropdown-item">Mis compras</Link></li>
+                    <li><Link className="dropdown-item">Favoritos</Link></li>
+                    <li><Link className="dropdown-item">Configuracion</Link></li>
+                    {userSession.isAdmin ? <li><Link to="/backoffice" className="dropdown-item">Backoffice</Link></li> : null}                    
                     <li><hr className="dropdown-divider" /></li>
                     <li>
                         <a className="dropdown-item " href="/#" onClick={logoutHandler}>
