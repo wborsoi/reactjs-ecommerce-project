@@ -11,7 +11,7 @@ export default function StoreItem({ product }) {
     <div className="store-item-container">
       <ItemCard
         title={product?.name}
-        text={product?.brand?.brandName}
+        text={product?.brand}
         photoURL={product?.imageURL}
         price={product?.price}
       >

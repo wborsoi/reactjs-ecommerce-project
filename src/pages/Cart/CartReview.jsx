@@ -12,7 +12,7 @@ export default function CartReview(props) {
   const { cart, setCart } = useContext(Context);
   const sumaTotal = cart.reduce(
     (accumulator, currentValue) =>
-      accumulator + currentValue.product.price * currentValue.quantity,
+      accumulator + Number(currentValue.product.price) * currentValue.quantity,
     0
   );
 
@@ -63,12 +63,12 @@ export default function CartReview(props) {
           />
         </td>
         <td>{product?.name}</td>
-        <td>{product?.brand?.brandName}</td>
-        <td>{`$ ${(product?.price).toFixed(2)}`}</td>
+        <td>{product?.brand}</td>
+        <td>{`$ ${Number((product?.price)).toFixed(2)}`}</td>
         <td>{!isEditable ? quantity : <div className="d-flex justify-content-between">
           <BtnQuantityChange quantityState={editableQuantity} setQuantityState={setEditableQuantity} />
         </div>}</td>
-        <td>{`$ ${(product?.price * editableQuantity).toFixed(2)}`}</td>
+        <td>{`$ ${(Number(product?.price) * editableQuantity).toFixed(2)}`}</td>
         <td>
           <EditableButton />
           <BtnRemoveCart onClick={removeItemFromCartHandler} />

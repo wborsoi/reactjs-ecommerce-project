@@ -29,3 +29,20 @@
     margin: 20px 0;
     width: 100%;
 }
+
+.bo-product-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    border-width: thin;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-style: solid;
+    padding: 20px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.bo-product-row-img {
+    max-width: 200px;
+}

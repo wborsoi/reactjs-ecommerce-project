@@ -19,7 +19,7 @@ export async function removeCategory(category) {
     const query = firestore.query(collection, firestore.where("subcategoryCategoryId", "==", category.id));
     const categoriesDoc = await firestore.getDocs(query);
     const docRef = firestore.doc(database, "/category", category.id);
-    
+
     return new Promise((resolve) => {
         if (categoriesDoc.size > 0) {
             resolve({
@@ -73,5 +73,42 @@ export async function addCategory(category) {
         }
 
     })
+
+}
+
+export async function addProduct(product) {
+    const collection = firestore.collection(database, "/products");
+
+    return new Promise((resolve) => {
+        firestore.addDoc(collection, product).then(() => {
+            console.log("Producto guardada exitosamente")
+            resolve({
+                success: true,
+                msg: "Producto guardado exitosamente"
+            })
+        }).catch((error) => {
+            console.error(error);
+            resolve({
+                success: false,
+                msg: error
+            })
+        });
+    })
+}
+
+export async function getAllProducts(text, brand, priceFrom, priceTo) {
+    const collection = firestore.collection(database, "/products");
+    const productsDocs = await firestore.getDocs(collection);
+    let result = [];
+    productsDocs?.forEach((product) => {
+        result = [...result, {
+            id: product.id,
+            ...product.data()
+        }];
+    });
+    return result;
+}
+
+export async function removeProduct(params) {
 
 }

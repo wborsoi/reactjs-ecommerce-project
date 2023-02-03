@@ -33,7 +33,7 @@ export default function CategoriesBO(params) {
     }
 
     const CategoryRow = ({ category }) => {
-        const { id, name, subcategoryCategoryId } = category;
+        const { id, name, subcategoryCategoryId, urlReference } = category;
 
         if (!subcategoryCategoryId) {
             return (
@@ -41,6 +41,7 @@ export default function CategoriesBO(params) {
                     <div className='d-flex flex-column w-100'>
                         <strong>{name}</strong>
                         <span className='text-muted'>ID: {id}</span>
+                        <span>URL Ref.: {urlReference}</span>
                         <SubcategoriesList category={category} />
                     </div>
                     <div className='d-flex flex-column'>
@@ -108,12 +109,8 @@ export default function CategoriesBO(params) {
                     </div>
                     <div className="input-group mb-3">
                         <label className="input-group-text" htmlFor="inputUrlReference">ID de referencia</label>
-                        <input disabled id="inputUrlReference" type="text" className="form-control" value={inputCategoryRefID} />
+                        <input disabled id="inputUrlReference" type="text" className="form-control" value={inputCategoryRefID}  readOnly={true} />
                     </div>
-                    {/* <div className="input-group mb-3">
-                        <label className="input-group-text" htmlFor="inputSubcategoryCategoryId">Subcategoria de (id categoria):</label>
-                        <input id="inputSubcategoryCategoryId" type="text" className="form-control" placeholder='Categoria ID' />
-                    </div> */}
                     <div className="input-group mb-3">
                         <label className="input-group-text" htmlFor="inputSubcategoryCategoryId">Subcategoria de:</label>
                         <select className="form-select" aria-label="Category select" id='inputSubcategoryCategoryId'>
